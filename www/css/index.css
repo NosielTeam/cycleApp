@@ -46,6 +46,7 @@ body {
       /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
     max-width: 320px;
+    margin: 0 auto;
 }
 
 /* Landscape layout (with min-width) */
@@ -130,4 +131,25 @@ h1 {
 	color: white;
 	background-color: #486b71;
 	border: 1px solid #939393;
+}
+a.reg{
+    text-decoration: none;
+    background: #fa5400;
+    color: white;
+    float: left;
+    padding: 10px 20px;
+    font-size: 12pt;
+}
+a.about{
+    text-decoration: none;
+    background: #2a2a2a;
+    color: white;
+    float: right;
+    padding: 10px 20px;
+    font-size: 12pt;
+}
+.menu{
+    position: absolute;
+    width: 320px;
+    bottom: 20px;
 }
